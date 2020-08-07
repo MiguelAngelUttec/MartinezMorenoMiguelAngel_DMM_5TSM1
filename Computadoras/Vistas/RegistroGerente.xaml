@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Computadoras.Vistas.RegistroGerente">
+    <ContentPage.Content>
+        <StackLayout Margin="2" BackgroundColor="#0e151b">
+            <Label Text="Registro de gerente" 
+                HorizontalOptions="CenterAndExpand"
+                   TextColor="white"
+                   FontSize="25"
+                   FontAttributes="Bold"/>
+            <Entry Placeholder="Nombres" 
+                   x:Name="txtNombres"
+                   BackgroundColor="Gray"
+                   TextColor="Black"/>
+            <Entry Placeholder="Apellido paterno" 
+                   x:Name="txtApellidoP"
+                   BackgroundColor="Gray"
+                   TextColor="Black"/>
+            <Entry Placeholder="Apellido materno" 
+                   x:Name="txtApellidoM"
+                   BackgroundColor="Gray"
+                   TextColor="Black"/>
+            <Entry Placeholder="CURP" 
+                   x:Name="txtCurp"
+                   BackgroundColor="Gray"
+                   TextColor="Black"/>
+            <Entry Placeholder="RFC" 
+                   x:Name="txtNRfc"
+                   BackgroundColor="Gray"
+                   TextColor="Black"/>
+            <Button Text="Guardar" 
+                    x:Name="btnGuardar"
+                    BackgroundColor="#47de91"
+                    HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

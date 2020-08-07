@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Computadoras.Vistas.RegistroComputadora">
+    <ContentPage.Content>
+        <StackLayout Margin="2" BackgroundColor="#0e151b">
+            <Label Text="Registro de computadora" 
+                HorizontalOptions="CenterAndExpand"
+                   TextColor="white"
+                   FontSize="25"
+                   FontAttributes="Bold"/>
+            <Entry Placeholder="Marca" 
+                   x:Name="txtMarca"
+                   BackgroundColor="Gray"
+                   TextColor="Black"/>
+            <Entry Placeholder="Modelo" 
+                   x:Name="txtModelo"
+                   BackgroundColor="Gray"
+                   TextColor="Black"/>
+            <Entry Placeholder="Procesador" 
+                   x:Name="txtProcesador"
+                   BackgroundColor="Gray"
+                   TextColor="Black"/>
+            <Entry Placeholder="RAM" 
+                   x:Name="txtRam"
+                   BackgroundColor="Gray"
+                   TextColor="Black"/>
+            <Entry Placeholder="ROM" 
+                   x:Name="txtRom"
+                   BackgroundColor="Gray"
+                   TextColor="Black"/>
+            <Entry Placeholder="Sucursal" 
+                   x:Name="txtSucursal"
+                   BackgroundColor="Gray"
+                   TextColor="Black"/>
+            <Button Text="Guardar" 
+                    x:Name="btnGuardar"
+                    BackgroundColor="#47de91"
+                    HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

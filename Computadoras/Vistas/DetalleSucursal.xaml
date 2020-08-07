@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Computadoras.Vistas.DetalleSucursal">
+    <ContentPage.Content>
+        <StackLayout Margin="2" BackgroundColor="#0e151b">
+            <Label Text="Datos de la sucursal " 
+                   BackgroundColor="White"
+                   HorizontalOptions="CenterAndExpand"/>
+            <Label x:Name="lblMensaje" HorizontalOptions="Center" BackgroundColor="white"/>
+            <Entry x:Name="txtNombre" Placeholder="Nombre" BackgroundColor="gray"/>
+            <Entry x:Name="txtDireccion" Placeholder="Direccion" BackgroundColor="Gray"/>
+            <Entry x:Name="txtCodigoPostal" Placeholder="Codigo Postal" BackgroundColor="Gray"/>
+            <Entry x:Name="txtIdGerente" Placeholder="ID gerente" BackgroundColor="Gray"/>
+            <Button Text="Actualizar" 
+                    BackgroundColor="#47de91"
+                    x:Name="btn_actualizar" />
+            <Button Text="Eliminar" 
+                    BackgroundColor="#47de91"
+                    x:Name="btn_eliminar" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

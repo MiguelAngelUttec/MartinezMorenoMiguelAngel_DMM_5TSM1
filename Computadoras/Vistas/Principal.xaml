@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Computadoras.Vistas.Principal">
+    <ContentPage.Content>
+        <ScrollView>
+            <AbsoluteLayout Margin="2" BackgroundColor="#0e151b" >
+                <Label Text="Tablas"
+                       TextColor="white"
+                       FontSize="25"
+                       AbsoluteLayout.LayoutBounds="42,120,300,100"
+                       FontAttributes="Bold" />
+                <Button x:Name="btn_Computadora" 
+                        AbsoluteLayout.LayoutBounds="113,180,150,50"
+                        BackgroundColor="#47de91"                    
+                        Text="Computadora"/>                
+                <Button x:Name="btn_Sucursal" 
+                        AbsoluteLayout.LayoutBounds="113,240,150,50"
+                        BackgroundColor="#47de91"                    
+                        Text="Sucursal"/>
+                <Button x:Name="btn_Gerente" 
+                        AbsoluteLayout.LayoutBounds="113,300,150,50"
+                        BackgroundColor="#47de91"                    
+                        Text="Gerente"/>
+                <Label Text="Éstas son las tablas de la base de datos."
+                       TextColor="White"
+                       FontSize="17"
+                       AbsoluteLayout.LayoutBounds="35,360,500,50"/>
+            </AbsoluteLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

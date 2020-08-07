@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Computadoras.Vistas.Inicio">
+    <ContentPage.Content>
+        <ScrollView>
+        <AbsoluteLayout Margin="2" BackgroundColor="#0e151b" >
+            <Label Text="Inventario de Computadoras"
+                   TextColor="white"
+                   FontSize="22"
+                   AbsoluteLayout.LayoutBounds="42,120,300,100"
+                   FontAttributes="Bold" />
+            <Label Text="HyperComputer"
+                   FontSize="27"
+                   TextColor="white"
+                   AbsoluteLayout.LayoutBounds="88,155,300,100"
+                   FontAttributes="Italic"/>
+            <Button x:Name="btn_ingresar" 
+                    BackgroundColor="#47de91"
+                    AbsoluteLayout.LayoutBounds="129,230,100,50"
+                    Text="Ingresar"/>
+            <Label Text="Bienvenido. Comience a probarla"
+                   TextColor="white"
+                   FontSize="18"
+                   AbsoluteLayout.LayoutBounds="55,400,350,100"/>
+        </AbsoluteLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

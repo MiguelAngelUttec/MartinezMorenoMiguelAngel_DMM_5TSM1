@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Computadoras.Vistas.ComputadorasT">
+    <ContentPage.Content>
+        <StackLayout Margin="2" BackgroundColor="#0e151b">
+            <Label Text="Tabla *computadoras*"
+                   TextColor="white"
+                   FontSize="25"
+                   HorizontalTextAlignment="Center"
+                   FontAttributes="Bold" />
+            <Entry Placeholder="Buscar por modelo" x:Name="txtBModelo"
+                   BackgroundColor="gray"
+                   TextColor="Black"/>
+            <Button x:Name="btnBuscar" 
+                    VerticalOptions="Fill" 
+                    BackgroundColor="#47de91"
+                    Text="Buscar computadora"/>
+            <Button x:Name="btnRegistrar" 
+                    VerticalOptions="Fill" 
+                    BackgroundColor="#47de91"
+                    Text="Registrar computadora"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
